@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<style>
+			svg {
+				background: black;
+			}
+
+			#position{
+				fill: NONE;
+				stroke: #3aff3a;
+				stroke-width: 1.5;
+			}
+
+			#map {
+				position: relative;
+			}
+
+			#field-canvas{
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+
+			#overlay-canvas{
+				position: absolute;
+			}
+
+			.tokyo {
+				fill: #696969;
+				stroke: #000000;
+				stroke-width: 0.5;
+			}
+			.selected{
+				fill: yellow;
+			}
+		</style>
+		<title>Oceans</title>
+	</head>
+	<body>
+		<div id="map"></div>
+		<script src="https://d3js.org/topojson.v1.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.min.js"></script>
+		<script src="mvi.js"></script>
+		<script src="mapV.js"></script>
+</body>
+</html>
+
+
