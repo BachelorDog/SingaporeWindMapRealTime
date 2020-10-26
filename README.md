@@ -2,7 +2,7 @@
 A website shows Singapore windmap in real time
 https://honeythebadger.synology.me/
 
-This is a mini project I tried to learn visualization of field data on maps.
+This is a mini project I tried to learn visualization of field data on maps with javascripts and d3.
 The website is hosted on my little mini synology which explains the domain name. 
 https://honeythebadger.synology.me/
 
